@@ -1,10 +1,15 @@
-  #include<stdio.h>
+#include<stdio.h>
 int main()
 {
-int x,y,z;
-x=100;
-y=200;
-z=x+y;
-printf("%d",z);
-return 0;
+  int a[2][3]={{10,20,30},
+                {40,50,60}};
+
+  int i,j;
+   for(i=1; i>=0 ; i--)
+   {
+    for(j=2 ; j>=0 ; j--)
+    printf("%d ",a[i][j]);
+
+   }
+   return 0;
 }
